@@ -1,4 +1,4 @@
-                                                                    **WSL Setup for Ubuntu**
+# WSL Setup for Ubuntu (RUN Linux on windows)
 
 **Enable Hyper-V to run Virtual Machine on a windows hardware device.** 
 ###Follow instruction from this URL

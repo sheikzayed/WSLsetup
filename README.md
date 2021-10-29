@@ -1,4 +1,4 @@
-**WSL Setup for Ubuntu**
+                                                                    **WSL Setup for Ubuntu**
 
 **Enable Hyper-V to run Virtual Machine on a windows hardware device.** 
 ###Follow instruction from this URL
@@ -79,7 +79,8 @@ generateResolvConf = false
 sudo unlink /etc/resolv.conf
 ```
 
-**Step C** : Edit and save the /etc/resolv.conf with the DNS server entries you need, can reference to the DNS entries collected from the Step 1.
+**Step C** : 
+Edit and save the /etc/resolv.conf with the DNS server entries you need, can reference to the DNS entries collected from the Step 1.
 You can add custom VPN DNS entries as well like GOOGLE DNS as mentioned in the next step, which will make sure when you connect to the VPN, DNS resolution will work.
 
 Add google DNS (nameserver 8.8.8.8) entry to resolv.conf file
@@ -97,12 +98,18 @@ Refer this link to setup docker desktop on windows [Link](https://code.visualstu
 **OR**
 
 ```
-Install Docker in WSL Ubuntu
-Install
+**Install Docker in WSL Ubuntu**
+
 Follow the usual installation instructions to install Docker Desktop. ...
+
 Start Docker Desktop from the Windows Start menu.
+
 From the Docker menu, select Settings > General.
-Select the Use WSL 2 based engine check box. ...
+
+Select the Use WSL 2 based engine check box.
+
 Click Apply & Restart.
+
 Ensure the distribution runs in WSL 2 mode.
+
 ```
